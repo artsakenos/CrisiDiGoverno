@@ -1,0 +1,144 @@
+html {
+    background: url(https://www.w3schools.com/css/img_forest.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 10px;
+    padding: 20px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p.custom {
+    border-style: solid;
+    border-width: 5px;
+}
+
+.page-section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin-bottom: 30px;
+}
+
+h4{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.text-primary {
+    color: #fed136 !important;
+}
+
+.fa, .fas {
+    font-weight: 900;
+}
+
+.block {
+    display: inline-block;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.team-member {
+    text-align: center;
+}
+
+
+.team-member img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid rgba(0, 0, 0, .1);
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    /* -webkit-transition: all .3s; */
+    transition: all .3s;
+    color: #fff;
+    border-radius: 100%;
+    outline: 0;
+    background-color: #212529;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+    background-color: #fed136;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.background-image-01 {
+    display: block;
+    position: relative;
+}
+
+.background-image-01::after {
+    content: "";
+    background: url(https://www.w3schools.com/css/img_forest.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    /* z-index: -1; */
+}
+
+#ultra_form_id_post #form_message {
+    min-height: 92px;
+}
+
+#ultra_form_id_post #form_submit {
+    margin-top: 15px;
+}
+
+
+#share {
+    text-align: center;
+}
+
+footer {
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+}
+
+footer .quicklinks{
+    text-align: initial;
+}
+
+footer .text-copyright {
+    font-size: 10px;
+    padding-top: 15px;
+}

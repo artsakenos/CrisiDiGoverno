@@ -1,6 +1,6 @@
 
 # Raccolte
-{partito_descrizione}:={programma_politico}. Perciò promettiamo {slogan}. {un_urlo}!
+{partito_descrizione}:={programma_politico}. Perciò {pp_promettiamo} {slogan_governo}. {un_urlo}!
 
 # Governo Sensazionale
 {slogangoverno}:=Il Governo {slogan_governo_oggetto}.
@@ -15,18 +15,18 @@
 
 # Nome Partito
 {np_nome}:=Movimento|Il popolo|Forza|Partito|Girotondo|Alleanza|Unione
-{np_aggettivo}:=Cinque Sorelle|Nuovo|di Disobbedienza|Protestante|Militante|delle Banane|Nazipacifista|di Estremo Centro|Cattocomunista|Vescovile|Illuminante|
+{np_aggettivo}:=Cinque Sorelle|Nuovo|di Disobbedienza|Protestante|Militante|delle Banane|Nazipacifista|di Estremo Centro|Cattocomunista|Vescovile|Illuminante
 {np_nomepartito}:={np_nome} {np_aggettivo}
 
 # Nome Persona
 {nome_politicante}:={nome_proprio_maschile} {cognome}|{nome_proprio_femminile} {cognome}|{nome_proprio_femminile} {nome_proprio_femminile} {cognome}
 
 # Programma
-{programma_politico}:={pp_1} {pp_2}
-{pp_1}:=auspichiamo|proponiamo|speriamo in|il nostro obbiettivo è|ci impegneremo per
-{pp_2}:=un governo|un provvedimento|un disegno di legge|un attacco|una serie di interventi
-# globalizzazione|devolution|riforma|opposizione|maggioranza|legge|guerra
-# crediamo|pensiamo|riteniamo|siamo sicuri|non accettiamo
+{programma_politico}:={pp_auspichiamo} {pp_unqualcosa} di {pp_specificazione}
+{pp_auspichiamo}:=auspichiamo|proponiamo|speriamo in|il nostro obbiettivo è|ci impegneremo per
+{pp_unqualcosa}:=un governo|un provvedimento|un disegno di legge|un attacco|una serie di interventi
+{pp_specificazione}:=globalizzazione|devolution|riforma|opposizione|maggioranza|legge|guerra
+{pp_promettiamo}:=promettiamo|pensiamo a|siamo sicuri di tirar su|non accettiamo
 
 {un_urlo}:={urlo_tutti} {urlo_urliamo} {urlo_assassini}
 {urlo_tutti}:=tutti quanti|tutti insieme|uniti|scesi nelle piazze|in spiaggia e in montagna
@@ -38,10 +38,10 @@
 {slogan_oggetto}:=tasse|sesso|pressione fiscale|cibo|dignità|promisquità|arcimbolde|canali tv|veline|gattini|condoni|condoglianze|preghiere|pensioni|supercazzole
 {slogan_destinatario}:=tutti|nessuno|gli immigrati|quelli di colore|i rumeni|gli zingari|il sud|l'ovest|i terroni
 
-
+{ministero}:=Ministero del {tipo_politiche_sost_del_al}
 {ruolo_politicante}:={tipo_ministro_del} {tipo_politiche_del}|{tipo_ministro_al} {tipo_politiche_al}
-{tipo_ministro_del}:=Ministro|Senatore|Presidente|Gran Ciambellano
-{tipo_ministro_al}:=Assessore|Delegato|Responsabile|Gran Cancelliere|Deputato|Gran Visir
+{tipo_ministro_del}:=Ministro|Senatore|Presidente|Gran Ciambellano|Gran Visir
+{tipo_ministro_al}:=Assessore|Delegato|Responsabile|Gran Cancelliere|Deputato
 
 {tipo_politiche_del}:=del {tipo_politiche_sost_del_al} {tipo_politiche_adj_del_al}|dei {tipo_politiche_sost_dei_ai} {tipo_politiche_adj_dei_ai}|degli {tipo_politiche_sost_degli_agli} {tipo_politiche_adj_dei_ai}
 {tipo_politiche_al}:=al {tipo_politiche_sost_del_al} {tipo_politiche_adj_del_al}|ai {tipo_politiche_sost_dei_ai} {tipo_politiche_adj_dei_ai}|agli {tipo_politiche_sost_degli_agli} {tipo_politiche_adj_dei_ai}
@@ -49,7 +49,7 @@
 {tipo_politiche_sost_del_al}:=Traffico|Sesso|Labirinto|Trasporto|Comparto Militare
 {tipo_politiche_sost_dei_ai}:=Trasporti|Portafogli|Rumeni|Traffici
 {tipo_politiche_sost_degli_agli}:=Zingari|Alterchi|Affari|Opportunismi
-{tipo_politiche_adj_del_al}:=Incostituzionale|Sessuale|Senza Portafogli|Alterco|Improvvisato|Superlativo|Interinale
+{tipo_politiche_adj_del_al}:=Incostituzionale|Sessuale|Senza Portafogli|Alterco|Improvvisato|Superlativo|Interinale|Emotivo
 {tipo_politiche_adj_dei_ai}:=Incostituzionali|Sessuali|Superlativi|Improvvisati|Interni
 
 ## Da sistemare!!
