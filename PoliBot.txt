@@ -14,8 +14,8 @@
 {stemma_aggettivo}:=verde marino|lungo lungo|un po' grosso|bello grande|piccolino
 
 # Nome Partito
-{np_nome}:=Movimento|Il popolo|Forza|Partito|Girotondo|Alleanza
-{np_aggettivo}:=Cinque Sorelle|Nuovo|di Disobbedienza|Protestante|Militante|delle Banane|Nazipacifista|di Estremo Centro
+{np_nome}:=Movimento|Il popolo|Forza|Partito|Girotondo|Alleanza|Unione
+{np_aggettivo}:=Cinque Sorelle|Nuovo|di Disobbedienza|Protestante|Militante|delle Banane|Nazipacifista|di Estremo Centro|Cattocomunista|Vescovile|Illuminante|
 {np_nomepartito}:={np_nome} {np_aggettivo}
 
 # Nome Persona
@@ -35,13 +35,13 @@
 
 {slogan_governo}:={slogan_quantita} {slogan_oggetto} per {slogan_destinatario}
 {slogan_quantita}:=più|meno|un po' meno|eliminazione di|un sacco di|abbastanza|un eccessivo ammontare di|riduzione di|una pletora di
-{slogan_oggetto}:=tasse|sesso|pressione fiscale|cibo|dignità|promisquità|arcimbolde|canali tv|veline
-{slogan_destinatario}:=tutti|nessuno|gli immigrati|quelli di colore|i rumeni|gli zingari|il sud|l'ovest
+{slogan_oggetto}:=tasse|sesso|pressione fiscale|cibo|dignità|promisquità|arcimbolde|canali tv|veline|gattini|condoni|condoglianze|preghiere|pensioni|supercazzole
+{slogan_destinatario}:=tutti|nessuno|gli immigrati|quelli di colore|i rumeni|gli zingari|il sud|l'ovest|i terroni
 
 
 {ruolo_politicante}:={tipo_ministro_del} {tipo_politiche_del}|{tipo_ministro_al} {tipo_politiche_al}
 {tipo_ministro_del}:=Ministro|Senatore|Presidente|Gran Ciambellano
-{tipo_ministro_al}:=Assessore|Delegato|Responsabile|Gran Cancelliere|Deputato
+{tipo_ministro_al}:=Assessore|Delegato|Responsabile|Gran Cancelliere|Deputato|Gran Visir
 
 {tipo_politiche_del}:=del {tipo_politiche_sost_del_al} {tipo_politiche_adj_del_al}|dei {tipo_politiche_sost_dei_ai} {tipo_politiche_adj_dei_ai}|degli {tipo_politiche_sost_degli_agli} {tipo_politiche_adj_dei_ai}
 {tipo_politiche_al}:=al {tipo_politiche_sost_del_al} {tipo_politiche_adj_del_al}|ai {tipo_politiche_sost_dei_ai} {tipo_politiche_adj_dei_ai}|agli {tipo_politiche_sost_degli_agli} {tipo_politiche_adj_dei_ai}
